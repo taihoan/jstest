@@ -1,0 +1,48 @@
+let a = 'I am a beginner';
+console.log(a);
+
+let text='let me know the length of this text';
+console.log("The length of variable [text] is ",text.length);
+
+; //cach 1: khi co dấu nháy đơn trong chuổi thì ta dùng cặp dấu nháy đôi "" để bao trùm bên ngoài text1
+;     //khi có dấu nháy đôi trong chuỗi thì dùng cặp dấu nháy đơn '' để bao chuổi bên ngoài
+    let text1 = "I'm a javascript beginner"; //ok
+    ; //let text11 = 'I'm a javascript beginner'; // không Ok,
+
+    let text22 = 'We are the so-called "Viking" from the north'; //ok
+    ; //let text22 = "We are the so-called "Viking" from the north"  //khong ok
+
+//Cach 2: ta dung dấu ` (bên dưới phím Esc) để bao trùm chuỗi thì không cần quan tâm bên trong chuỗi có dấu nháy đơn hay đôi vì tất cả đêu ok
+    let text3 = `I'm a javascript beginner`; //ok
+    let text33 = `We are the so-called "Viking" from the north`;
+
+console.log(text1);
+console.log(text22);
+console.log(text3);
+console.log(text33);
+
+//Cách 3: thông dụng với các ngôn ngữ khác là ta dùng dấu \ để in ra bất kỳ kí tự đặc biệt nào
+let text4 = "I\'m a javascript beginner"; //ok
+let text44 = 'I\'m a javascript beginner'; //ok
+let text444 = 'We are the so-called \"Viking\" from the north';
+let text4444 = "We are the so-called \"Viking\" from the north";
+let text44444 = 'We are the so-called \@Viking\/ from the north';
+
+console.log(text4);
+console.log(text44);
+console.log(text444);
+console.log(text4444);
+console.log(text44444);
+
+//in xuống dòng \n 
+let text5 = "I want to \nbreak new line.";
+console.log(text5);
+
+ //Khi viết code mà dòng quá dài thì ta có thể xuống dòng bằng cách sử dụng dấu \ hoặc dấu +
+ //sử dụng dấu + phổ biến hơn  
+ //let text6 = "This line of code is too long \\ so I need to break into a new line";
+ //console.log(text6);
+ //let text61 = "This line of code is too long + 
+ //so I need to break into a new line by + operator";
+//console.log(text61);
+
